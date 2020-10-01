@@ -2,14 +2,14 @@
     <head>
 
 <div class="formwrapper">
-  <h2 class="title">New event</h2>
+  <h2 class="title">Новое событие</h2>
   <form method="POST" action="/event">
   {{ form.csrf_token }}
       <div class="form-field">{{ form.start.label }} {{ form.start }}</div>
       <div class="form-field">{{ form.end.label }} {{ form.end }}</div>
       <div class="form-field">{{ form.subject.label }} {{ form.subject }}</div>
       <div class="form-field">{{ form.description.label }} {{ form.description }}</div>
-      <input type="submit" value="Go">
+      <input type="submit" value="Отправить">
       {{ form.submit }}
   </form>
 </div>

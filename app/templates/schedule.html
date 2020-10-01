@@ -1,9 +1,9 @@
 <html>
     <head>
-        <title>Meeting schedule</title>
+        <title>Расписание</title>
     </head>
     <body>
-        <h1>Scheduled events</h1>
+        <h1>Расписание</h1>
         {% for event in events %}
         <div><p>{{ event.subject }} time from: <b>{{ event.start }}</b> to  <b>{{ event.end }}</b></p></div>
         <div>{{ event.description }}</div>

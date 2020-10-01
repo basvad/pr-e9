@@ -1,12 +1,12 @@
 <html>
     <head>
 <div class="formwrapper">
-  <h2 class="title">Login</h2>
+  <h2 class="title">Логин</h2>
   <form method="POST" >
   {{ form.csrf_token }}
       <div class="form-field">{{ form.email.label }} {{ form.email }}</div>
       <div class="form-field">{{ form.password.label }} {{ form.password }}</div>
-      <input type="submit" value="Login">
+      <input type="submit" value="Логин">
       {{ form.submit }}
   </form>
 </div>

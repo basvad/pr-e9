@@ -1,12 +1,12 @@
 <html>
     <head>
 <div class="formwrapper">
-  <h2 class="title">Create</h2>
+  <h2 class="title">Создать пользователя</h2>
   <form method="POST" >
   {{ form.csrf_token }}
       <div class="form-field">{{ form.email.label }} {{ form.email }}</div>
       <div class="form-field">{{ form.password.label }} {{ form.password }}</div>
-      <input type="submit" value="Create User">
+      <input type="submit" value="Создать">
       {{ form.submit }}
   </form>
 </div>
